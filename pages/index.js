@@ -1,12 +1,13 @@
 import styled from 'styled-components';
-import GlobalStyle from './../styles/global';
+import Layout from './../components/Layout';
 
 export default function Home() {
   return (
-    <Header>
-      <GlobalStyle />
-      <h1>HELLO WORLD</h1>
-    </Header>
+    <Layout>
+      <Header>
+        <h1>HELLO WORLD</h1>
+      </Header>
+    </Layout>
   );
 }
 
